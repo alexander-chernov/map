@@ -1,0 +1,162 @@
+/*Стили для постоянных элементов всплывающего окна*/
+.a_1 {
+    text-decoration:none;
+    color:#03508c;
+    font-weight:bold;
+    font-size:16px;
+}
+.wind {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 10;
+    overflow: hidden;
+    color:#000;
+    text-align:center;
+    background: #ebede8;
+    padding: 0 15px 15px 15px;
+    /*border: 7px solid rgba(1,7,36,0.9);*/
+    border: 7px solid rgba(255,255,255,0.9);
+    border-radius: 10px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.wind_karta {
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    display: none;
+    z-index: 10;
+    overflow: hidden;
+    color:#000;
+    text-align:center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+}
+.wind_nedvigimost {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 10;
+    overflow: hidden;
+    color:#000;
+    text-align:center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.bl_phot_list {
+     padding: 2px;
+    border: 1px solid #c6c6c6;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.bl_phot_list img {
+    max-width: 650px;
+    max-height: 600px;
+    vertical-align: top;
+    border-radius: 5px;
+}
+.wind_job {
+   position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 10;
+    overflow: hidden;
+    color:#000;
+    text-align:center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.temno {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 9;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.prozrachno {
+    background-color: rgba(0, 0, 0, 0);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 9;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.close {
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    background: black;
+    color: #fff;
+    border-radius: 100%;
+    right: 0px;
+    padding: 3px 8px;
+    margin: 0;
+    border: 2px solid #a4a5a4;
+    cursor: pointer;
+}
+.close_2 {
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    background: #c6c6c6;
+    color: #000000;
+    border-radius: 100%;
+    right: 0px;
+    padding: 3px 8px;
+    margin: 0;
+    top: 5px;
+    right: 5px;
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+}
+.close:hover {
+    background: #a4a5a4;
+    border: 2px solid #000;
+    opacity: 0.8;
+}
+.close_2:hover {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    color: #000000;
+}
+/*Конец Стилей для постоянных элементов всплывающего окна*/
+
+.access_list {
+    list-style: none;
+}
+.access_list li {
+    text-align: left;
+}

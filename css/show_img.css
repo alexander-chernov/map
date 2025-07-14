@@ -1,0 +1,75 @@
+.block_listing {
+    padding: 2px;
+    border: 1px solid #c6c6c6;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.block_listing_job {
+    padding: 2px;
+    border: 1px solid #c6c6c6;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.im_job {
+    max-width: 650px;
+    max-height: 600px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.im_2 {
+    max-width: 650px;
+    max-height: 600px;
+    display: none;
+    border-radius: 5px;
+}
+.im_3 {
+    width: 650px;
+    height: 500px;
+    display: block;
+    border-radius: 5px;
+}
+.mini_listing_img {
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    width: 35px;
+    height: 25px;
+    background: #000;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.listings a {
+    text-decoration: none;
+}
+.left_list {
+    position: absolute;
+    top: 234px;
+    left: 48px;
+    width: 45px;
+    height: 45px;
+    opacity: 0.4;
+    cursor: pointer;
+    border: none;
+}
+.left_list:hover {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+.right_list {
+    position: absolute;
+    top: 234px;
+    right: 48px;
+    width: 45px;
+    height: 45px;
+    opacity: 0.4;
+    cursor: pointer;
+    border: none;
+}
+.right_list:hover {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+
+
